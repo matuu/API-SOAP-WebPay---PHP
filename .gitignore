@@ -6,3 +6,4 @@ certificados_generados
 documentacion
 include/constantes.php
 include/Conexion.php
+logs/
