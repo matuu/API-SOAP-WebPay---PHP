@@ -14,4 +14,4 @@ create table WP_TRANSACCION(
     PRIMARY KEY (glSessionId)
 );
     
-    
+     

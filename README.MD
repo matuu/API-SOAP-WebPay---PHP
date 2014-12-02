@@ -18,7 +18,7 @@ Sigueme en @DannielWhatever
 Te pedirá una clave, no la omitas y anotala en lo posible.
     
     openssl genrsa -des3 -out oneclick.key 2048
-
+ 
 5. Crear requerimiento de certificado. De estos campos no sé bien cuáles son obligatorios, yo siempre pongo el país "CL", la ciudad "VALPARAISO" por ejemplo, lo que si debes poner si o si es la clave y el Common Name, que correspoonde a tú Código de Comercio. Si estás en fase de integración, usa el código de comercio de integración.
     
     openssl req -new -key oneclick.key -out oneclick.csr

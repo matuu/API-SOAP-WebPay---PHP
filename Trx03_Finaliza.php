@@ -18,7 +18,7 @@ if(!isset($result["cdRespTbk"]) || $result["cdRespTbk"]!==0){
     ClassNegocio::throwException($exception);
 	die();
 }
- 
+
 if($result){
 
     $arr_session             = explode("@",$result["glSessionId"]);
@@ -114,4 +114,3 @@ if($result){
 </tbody>
 </table>
 
- 

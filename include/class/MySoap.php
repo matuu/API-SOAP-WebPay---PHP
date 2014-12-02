@@ -13,7 +13,7 @@ class MySoap extends SoapClient {
     } */
     
 	function __doRequest($request, $location, $saction, $version) {
-        
+
 		$doc = new DOMDocument('1.0');
 		$doc->loadXML($request);
 		$objWSSE = new WSSESoap($doc);
@@ -74,4 +74,3 @@ class MySoap extends SoapClient {
         */
 	}
 }
- 
